@@ -1,4 +1,4 @@
-nmae : Uthman Action 
+name : Uthman Action 
 run-name : Uthman Action
 on : [push]
 jobs : 
