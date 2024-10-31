@@ -4,5 +4,5 @@ on : [push]
 jobs : 
   Simple test for now :
    runs-on : ubuntu-latest
-  steps :
+   steps :
      - run: echo "hello everyone"
