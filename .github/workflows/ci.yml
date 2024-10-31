@@ -1,17 +1,18 @@
-name : Uthman Action 
-run-name : Uthman Action
+name : Uthman Git Action 
+run_name : Uthman Git Action
 on : [push]
-jobs : 
-  Simple_test_for_now :
-   runs-on : ubuntu-latest
-   steps :
-     - name: checkout code from repo
-       uses: actions/checkout@v4
-    
-     - name: Set up Terraform to set up Cloud Infra
-       uses: hashicorp/setup-terraform@v2
-       with: 
-         terraform_version: 1.3.0 
+jobs: 
+  Set_test_for_now:
+    run-on: ubuntu-latest
+    steps :
+     - name: Checkout code for repo
+       uses : actions/checkout@v4
 
-     - name: Terrafrom Initialiazation
-       run: terraform init
+     - name: Terraform setup for cloud infra
+       uses: hashicorp/setup/terraform@v2
+       with:
+         terraform-version: 1.3.0
+
+     - name: Terrraform init
+       uses: terraform init
+      
