@@ -1,5 +1,5 @@
 name : Uthman Git Action 
-run_name : Uthman Git Action
+run-name : Uthman Git Action
 on : [push]
 jobs: 
   Set_test_for_now:
