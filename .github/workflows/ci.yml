@@ -1,0 +1,8 @@
+nmae : Uthman Action 
+run-name : Uthman Action
+on : [push]
+jobs : 
+  Simple test for now :
+   runs-on : ubuntu-latest
+  steps :
+     - run: echo "hello everyone"
