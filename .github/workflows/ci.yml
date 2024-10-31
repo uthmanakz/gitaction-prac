@@ -2,7 +2,7 @@ name : Uthman Action
 run-name : Uthman Action
 on : [push]
 jobs : 
-  Simple test for now :
+  Simple_test_for_now :
    runs-on : ubuntu-latest
    steps :
      - run: echo "hello everyone"
