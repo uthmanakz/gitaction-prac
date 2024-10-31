@@ -3,8 +3,8 @@ run_name : Uthman Git Action
 on : [push]
 jobs: 
   Set_test_for_now:
-    runs-on: ubuntu-latest
-    steps :
+   runs-on: ubuntu-latest
+   steps :
      - name: Checkout code for repo
        uses : actions/checkout@v4
 
